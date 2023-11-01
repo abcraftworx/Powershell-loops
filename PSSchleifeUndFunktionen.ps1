@@ -1,4 +1,4 @@
-﻿cls 
+Clear-Host 
 
 function LeerZeichen ($name, $Color, $Color2) {
     Write-Host "#--------------------#" -ForegroundColor $Color2
@@ -37,7 +37,7 @@ Write-Host ""
 
 [int]$i  = 0
 
- while ( $i -lt 10 ) {    
+while ( $i -lt 10 ) {    
     $i++
     Write-Host $i
 }
@@ -60,8 +60,8 @@ Write-Host ""
 [int]$i = 0
 
 do { 
-   $i++
-   Write-Host $i
+    $i++
+    Write-Host $i
 } until ( $i -gt 9 )
 
 #-------------------------------------------------------------------
@@ -82,8 +82,8 @@ Write-Host ""
 [int]$i = 0
 
 do { 
-   $i++
-   Write-Host $i
+    $i++
+    Write-Host $i
 } while ( $i -lt 10 )
 
 
@@ -128,5 +128,3 @@ function CrazyStuff ( $array ) {
 }
 
 CrazyStuff (1..10)
-
-#-------------------------------------------------------------------
